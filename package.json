@@ -1,0 +1,25 @@
+{
+  "name": "is216-project-group-1",
+  "version": "1.0.0",
+  "description": "[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=454277&assignment_repo_type=GroupAssignmentRepo)\r # :wave: is216-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd front-end && npm run serve\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/is216-supreme/is216-project-group-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/is216-supreme/is216-project-group-1/issues"
+  },
+  "homepage": "https://github.com/is216-supreme/is216-project-group-1#readme",
+  "dependencies": {
+    "chart.js": "^3.6.0",
+    "concurrently": "^6.3.0"
+  }
+}
